@@ -222,7 +222,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #ECECEC;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -264,7 +264,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #080808;
+    color: #ECECEC;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -280,7 +280,7 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ECECEC;
+    color: #080808;
     transform: translateY(-5px);
 }
 .btn.btn2{
@@ -302,7 +302,7 @@ form input, form textarea{
     border-radius: 6px;
 }
 form .btn2{
-    padding: 14px 60px;
+    padding: 15px 60px;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
@@ -329,7 +329,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/background-portrait.png);
     }
     .header-text{
         margin-top: 100%;

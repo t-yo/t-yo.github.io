@@ -253,7 +253,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ECECEC;
+    border: 1px solid #7d2ae8;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -261,7 +261,7 @@ nav ul li a:hover::after{
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #ECECEC;
+    background: #7d2ae8;
 }
 
 /* ---------contact-------- */
@@ -291,7 +291,7 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #080808;
+    color: #555;
     transform: translateY(-5px);
 }
 .btn.btn2{
@@ -308,7 +308,7 @@ form input, form textarea{
     background: #ECECEC;
     padding: 15px;
     margin: 15px 0;
-    color: #080808;
+    color: #555;
     font-size: 18px;
     border-radius: 6px;
 }

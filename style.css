@@ -10,8 +10,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #F3D250;
-    color: #080808;
+    background: #ECECEC;
+    color: #555;
 }
 #header{
     width: 100%;
@@ -32,8 +32,16 @@ nav{
     flex-wrap: wrap;
 }
 
-.logo{
+/*.logo{
     width: 140px;
+}*/
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+.logo span {
+    color: #7d2ae8;
 }
 
 nav ul li{
@@ -43,7 +51,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #080808;
+    color: #555;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -52,7 +60,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #F3D250;
+    background: #7d2ae8;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -70,12 +78,12 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #F3D250;
+    color: #7d2ae8;
 }
 /* -----------about--------------- */
 #about{
     padding: 80px 0;
-    color: #080808;
+    color: #555;
     font-family: 'Times New Roman', Times, serif;
 }
 .row{
@@ -98,7 +106,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: #080808;
+    color: #7d2ae8;
 }
 
 .tab-titles{
@@ -116,7 +124,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ECECEC;
+    background: #7d2ae8;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -132,7 +140,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #ECECEC;
+    color: #7d2ae8;
     font-size: 14px;
 }
 .tab-contents{
@@ -204,7 +212,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ECECEC);
+    background: linear-gradient(rgba(125,42,232), #ECECEC);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -229,7 +237,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
-    background: #F3D250;
+    background: #555;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -267,7 +275,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ECECEC;
+    color: #7d2ae8;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -278,7 +286,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ECECEC;
+    color: #7d2ae8;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -288,7 +296,7 @@ nav ul li a:hover::after{
 }
 .btn.btn2{
     display: inline-block;
-    background: #ECECEC;
+    background: #7d2ae8;
 }
 .contact-right form{
     width: 100%;
@@ -346,7 +354,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: #F3D250;
+        background: #ECECEC;
         position: fixed;
         top: 0;
         right: -200px;
@@ -390,7 +398,7 @@ nav .fas{
     }
 }
 #msg{
-    color: #61b752;
+    color: #7d2ae8;
     margin-top: -40px;
     display: block;
 }
